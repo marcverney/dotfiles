@@ -1,0 +1,29 @@
+{
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 13,
+    "window.openFoldersInNewWindow": "on",
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.saturation": 0.8,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.associations": {
+        "Dockerfile*": "dockerfile"
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.sideBar.location": "left",
+    "explorer.confirmDelete": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabCloseButton": "off",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
