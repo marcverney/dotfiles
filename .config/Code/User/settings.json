@@ -1,29 +1,76 @@
 {
-    "files.autoSave": "onFocusChange",
-    "git.autofetch": true,
-    "editor.minimap.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 13,
-    "window.openFoldersInNewWindow": "on",
-    "window.title": "${rootName}${separator}${activeEditorShort}",
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.saturation": 0.8,
+    // Don't display a close button on tabs. Close with middle click or with Keyboard shortcut.
+    "workbench.editor.tabCloseButton": "off",
+    // On startup, don't show the the startup page but an empty new file
     "workbench.startupEditor": "newUntitledFile",
+    // Increase indentation of files/folders
+    "workbench.tree.indent": 16,
+    // Don't display a vertical guide below folders in the explorer pane
+    "workbench.tree.renderIndentGuides": "none",
+    // Don't simply preview a file when clicked. Open it.
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    // Display a top border on the tab of modified files
+    "workbench.editor.highlightModifiedTabs": true,
+    // Use the Material icon theme if installed
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.saturation": 0.8,
+    // Window title format
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    // Don't replace the current workspace when opening a new folder
+    "window.openFoldersInNewWindow": "on",
+    // Don't display the breadcrumbs bar
+    "breadcrumbs.enabled": false,
+    // Don't display the minimap
+    "editor.minimap.enabled": false,
+    // Don't highlight other occurrences of the word under the cursor
+    "editor.occurrencesHighlight": false,
+    // Font size
+    "editor.fontSize": 13,
+    // Don't wrap lines by default. Use the menu entry if needed.
+    "editor.wordWrap": "off",
+    // When using autocomplete to change a word, replace it instead of writing the new one where the cursor is.
+    "editor.suggest.insertMode": "replace",
+    // Only  accept autocomplete suggestions with Tab or Enter. Not with "." for example.
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // Don't automatically format on save
+    "editor.formatOnSave": false,
+    // Don't automatically format on paste
+    "editor.formatOnPaste": false,
+    // In HTML, for example, automatically edit the closing tag when editing an opening tag
+    "editor.linkedEditing": true,
+    // Don't highlight matching brackets with a square. Simply underline them.
+    "editor.matchBrackets": "never",
+    // Automatically select the current file in the explorer pane
+    "explorer.autoReveal": true,
+    // Don't ask confirmation when deleting a file
+    "explorer.confirmDelete": false,    
+    // In HTML, for example, pressing Tab after "div" generates "<div></div>"
+    "emmet.triggerExpansionOnTab": true,
+    // Automatically save the current file whn it loses focus
+    "files.autoSave": "onFocusChange",
+    // Use Markdown syntax highlighting for new files
+    "files.defaultLanguage": "markdown",
+    // Don't display those files/folder in the explorer pane
+    "files.exclude": {
+        "**/.idea": true
+    },
+    // Consider a Dockerfile-php, for example, as a Dockerfile
     "files.associations": {
         "Dockerfile*": "dockerfile"
     },
+    // Always use Unix line endings
     "files.eol": "\n",
+    // Make sure there is always a single, emtpy line at the end of the file being saved
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "workbench.sideBar.location": "left",
-    "explorer.confirmDelete": false,
+    // Trim whitespace at the end of lines
     "files.trimTrailingWhitespace": true,
-    "workbench.tree.renderIndentGuides": "none",
-    "breadcrumbs.enabled": false,
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.tabCloseButton": "off",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    // Automatically fetch commits from default repository
+    "git.autofetch": true,
+    // Don't send usage data to Visual Studo Code team
+    "telemetry.enableTelemetry": false,
+    // Don't send crash reports to Visual Studo Code team
+    "telemetry.enableCrashReporter": false,
 }
