@@ -70,7 +70,5 @@
     // Automatically fetch commits from default repository
     "git.autofetch": true,
     // Don't send usage data to Visual Studo Code team
-    "telemetry.enableTelemetry": false,
-    // Don't send crash reports to Visual Studo Code team
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off"
 }
