@@ -70,5 +70,7 @@
     // Automatically fetch commits from default repository
     "git.autofetch": true,
     // Don't send usage data to Visual Studo Code team
-    "telemetry.telemetryLevel": "off"
+    "telemetry.telemetryLevel": "off",
+    // Don't show Release Notes after an update
+    "update.showReleaseNotes": false
 }
