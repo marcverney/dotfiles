@@ -1,4 +1,6 @@
 {
+    // Use the dark gray color theme
+    "workbench.colorTheme": "Visual Studio Dark",
     // Don't display a close button on tabs. Close with middle click or with Keyboard shortcut.
     "workbench.editor.tabCloseButton": "off",
     // On startup, don't show the the startup page but an empty new file
@@ -45,7 +47,7 @@
     // Automatically select the current file in the explorer pane
     "explorer.autoReveal": true,
     // Don't ask confirmation when deleting a file
-    "explorer.confirmDelete": false,    
+    "explorer.confirmDelete": false,
     // In HTML, for example, pressing Tab after "div" generates "<div></div>"
     "emmet.triggerExpansionOnTab": true,
     // Automatically save the current file whn it loses focus
