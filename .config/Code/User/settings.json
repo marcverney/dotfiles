@@ -76,4 +76,6 @@
     // Collapse unchanged regions in diff editor
     "diffEditor.experimental.useVersion2": true,
     "diffEditor.experimental.collapseUnchangedRegions": true,
+    // Disable bracket-pair colorization
+    "editor.bracketPairColorization.enabled": false,
 }
