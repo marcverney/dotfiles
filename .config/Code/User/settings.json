@@ -72,5 +72,8 @@
     // Don't send usage data to Visual Studo Code team
     "telemetry.telemetryLevel": "off",
     // Don't show Release Notes after an update
-    "update.showReleaseNotes": false
+    "update.showReleaseNotes": false,
+    // Collapse unchanged regions in diff editor
+    "diffEditor.experimental.useVersion2": true,
+    "diffEditor.experimental.collapseUnchangedRegions": true,
 }
