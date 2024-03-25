@@ -28,8 +28,6 @@
     "editor.minimap.enabled": false,
     // Don't highlight other occurrences of the word under the cursor
     "editor.occurrencesHighlight": false,
-    // Font size
-    "editor.fontSize": 13,
     // Don't wrap lines by default. Use the menu entry if needed.
     "editor.wordWrap": "off",
     // When using autocomplete to change a word, replace it instead of writing the new one where the cursor is.
