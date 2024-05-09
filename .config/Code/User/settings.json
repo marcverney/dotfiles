@@ -24,6 +24,12 @@
     "window.openFoldersInNewWindow": "on",
     // Don't display the breadcrumbs bar
     "breadcrumbs.enabled": false,
+    // Hide functions (e.g. closures) in Outline view
+    "outline.showFunctions": false,
+    // Hide namespaces in Outline view
+    "outline.showNamespaces": false,
+    // Hide variables in Outline view
+    "outline.showVariables": false,
     // Don't display the minimap
     "editor.minimap.enabled": false,
     // Don't highlight other occurrences of the word under the cursor
@@ -56,7 +62,7 @@
     "files.exclude": {
         "**/.idea": true
     },
-    // Consider a Dockerfile-php, for example, as a Dockerfile
+    // Consider files whose name starts with "Dockerfile" as Dockerfiles
     "files.associations": {
         "Dockerfile*": "dockerfile"
     },
