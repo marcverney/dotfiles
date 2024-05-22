@@ -81,6 +81,8 @@
     "update.showReleaseNotes": false,
     // Collapse unchanged regions in diff editor
     "diffEditor.hideUnchangedRegions.enabled": true,
+    // Show line numbers in search results
+    "search.showLineNumbers": true,
     // Disable bracket-pair colorization
     "editor.bracketPairColorization.enabled": false,
 }
