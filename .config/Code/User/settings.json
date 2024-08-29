@@ -48,6 +48,8 @@
     "editor.linkedEditing": true,
     // Don't highlight matching brackets with a square. Simply underline them.
     "editor.matchBrackets": "never",
+    // Don't compact folders into a single row
+    "explorer.compactFolders": false,
     // Automatically select the current file in the explorer pane
     "explorer.autoReveal": true,
     // Don't ask confirmation when deleting a file
