@@ -77,6 +77,10 @@
     "files.trimTrailingWhitespace": true,
     // Automatically fetch commits from default repository
     "git.autofetch": true,
+    // Use a cleaner date format
+    "gitlens.defaultDateFormat": "D MMM YYYY HH:mm",
+    // Do not display dates as "Yesterday", "Two days ago", etc.
+    "gitlens.defaultDateStyle": "absolute",
     // Don't send usage data to Visual Studo Code team
     "telemetry.telemetryLevel": "off",
     // Don't show Release Notes after an update
