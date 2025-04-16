@@ -91,4 +91,6 @@
     "search.showLineNumbers": true,
     // Disable bracket-pair colorization
     "editor.bracketPairColorization.enabled": false,
+    // Don't highlight non-ASCII characters (accented, etc.)
+    "editor.unicodeHighlight.nonBasicASCII": false
 }
