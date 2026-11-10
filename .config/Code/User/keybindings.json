@@ -1,0 +1,12 @@
+[
+  // Remove Ctrl+J from "Toggle panel" and assign it to "Join lines"
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
